@@ -1,5 +1,5 @@
 {% set name = "dcor" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dcor-{{ version }}.tar.gz
-  sha256: ef7b22b93ce00e24580730989b61a9e445f1c591974cbcfaba2ba9a711f66722
+  sha256: 8597329226d83d9b89e8bc15f9cb697524ed038505e4b519f7c8c895a68a14b5
 
 build:
   number: 0
