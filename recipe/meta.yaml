@@ -20,7 +20,7 @@ requirements:
     - pip
     - python {{ python_min }}
   run:
-    - array_api_compat
+    - array-api-compat
     - numba >=0.51
     - numpy
     - python >={{ python_min }},<4.0
